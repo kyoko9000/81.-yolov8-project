@@ -30,6 +30,7 @@ while cap.isOpened():
             if result:
                 boxes = result.boxes.numpy()  # Boxes object for bbox outputs
                 for box in boxes:  # there could be more than one detection
+                    print("name", result.names[box.cls[0]])
                     print("class", box.cls)
                     x11 = int(box.xyxy[0][0]) + x1
                     y11 = int(box.xyxy[0][1]) + y1
