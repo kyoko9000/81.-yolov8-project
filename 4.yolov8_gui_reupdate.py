@@ -56,22 +56,49 @@ class live_stream(QThread):
         super(live_stream, self).__init__()
 
     def run(self):
-        if not self.stop:
-            model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
-            results = model('video1.mp4', stream=True)  # List of Results objects
-            for result in results:
-                if result:
+        # model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
+        # results = model('video1.mp4', stream=True)  # List of Results objects
+        # for result in results:
+        #     # self.signal.emit(result.orig_img)
+        #     self.signal.emit(result.plot())
+            # if result:
+            #     boxes = result[0].boxes.numpy()  # Boxes object for bbox outputs
+            #     for box in boxes:  # there could be more than one detection
+            #         print("class", box.cls)
+
+        # Load the YOLOv8 model
+        model = YOLO('yolov8n.pt')
+
+        # Open the video file
+        cap = cv2.VideoCapture("video1.mp4")
+
+        # Loop through the video frames
+        while cap.isOpened():
+            # Read a frame from the video
+            success, frame = cap.read()
+
+            if success:
+                # Run YOLOv8 inference on the frame
+                results = model(frame)
+
+                for result in results:
+                    # self.signal.emit(result.orig_img)
+                    self.signal.emit(result.plot())
+                    # if result:
                     #     boxes = result[0].boxes.numpy()  # Boxes object for bbox outputs
                     #     for box in boxes:  # there could be more than one detection
                     #         print("class", box.cls)
-                    # self.signal.emit(result.orig_img)
-                    self.signal.emit(result.plot())
-                else:
-                    break
-        if self.stop:
-            print("stop program")
+
+            # Break the loop if 'q' is pressed
+            if self.stop:
+                break
+
+        # Release the video capture object and close the display window
+        cap.release()
+        cv2.destroyAllWindows()
 
     def stop_app(self):
+        print("stop")
         self.stop = True
 
 
