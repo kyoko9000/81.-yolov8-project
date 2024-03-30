@@ -64,8 +64,6 @@ class live_stream(QThread):
                     #     boxes = result[0].boxes.numpy()  # Boxes object for bbox outputs
                     #     for box in boxes:  # there could be more than one detection
                     #         print("class", box.cls)
-                    #     cv2.imshow("show", result.orig_img)
-                    #     cv2.waitKey(1)
                     # self.signal.emit(result.orig_img)
                     self.signal.emit(result.plot())
                 else:
