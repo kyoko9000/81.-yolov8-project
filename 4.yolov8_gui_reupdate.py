@@ -61,10 +61,10 @@ class live_stream(QThread):
         # for result in results:
         #     # self.signal.emit(result.orig_img)
         #     self.signal.emit(result.plot())
-            # if result:
-            #     boxes = result[0].boxes.numpy()  # Boxes object for bbox outputs
-            #     for box in boxes:  # there could be more than one detection
-            #         print("class", box.cls)
+        #     if result:
+        #         boxes = result.boxes.numpy()  # Boxes object for bbox outputs
+        #         for box in boxes:  # there could be more than one detection
+        #             print("class", box.cls)
 
         # Load the YOLOv8 model
         model = YOLO('yolov8n.pt')
@@ -82,10 +82,10 @@ class live_stream(QThread):
                 results = model(frame)
 
                 for result in results:
-                    # self.signal.emit(result.orig_img)
-                    self.signal.emit(result.plot())
+                    # self.signal.emit(result.orig_img)  # take original image
+                    self.signal.emit(result.plot())  # take image after predict
                     # if result:
-                    #     boxes = result[0].boxes.numpy()  # Boxes object for bbox outputs
+                    #     boxes = result.boxes.numpy()  # Boxes object for bbox outputs
                     #     for box in boxes:  # there could be more than one detection
                     #         print("class", box.cls)
 
