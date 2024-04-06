@@ -2,8 +2,8 @@ import cv2
 from ultralytics import YOLO
 
 # Load a model
-# model = YOLO("yolov9c.pt")
-model = YOLO("yolov9c-seg.pt")
+model = YOLO("yolov9c.pt")
+# model = YOLO("yolov9c-seg.pt")
 
 # Use the model
 results = model("video1.mp4", stream=True)  # predict on an image
