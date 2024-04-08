@@ -15,7 +15,7 @@ for result in results:
     if result:
         boxes = result.boxes.numpy()  # Boxes object for bbox outputs
         all_box = boxes.xyxy  # total list
-        y1_box = boxes.xyxy[:, 1]  # list of x1
+        y1_box = boxes.xyxy[:, 1]  # list of y1
         print("all_box", all_box)
         print("x1_box", y1_box)
 
@@ -24,9 +24,9 @@ for result in results:
         # In danh sách mới với các số dạng int
         print("x1 int list:", int_y1_box)
 
-        y1_max = max(int_y1_box)  # find x1 max
+        y1_max = max(int_y1_box)  # find y1 max
         print("y1_max", y1_max)
-        y1_max_pos = int_y1_box.index(y1_max)  # find x1 max position
+        y1_max_pos = int_y1_box.index(y1_max)  # find y1 max position
         print("x1_max_pos", int_y1_box.index(y1_max))
 
         coordinates_we_need = all_box[y1_max_pos]  # this is coordinates near camera
