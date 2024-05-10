@@ -82,18 +82,17 @@ class MainWindow(QMainWindow):
         label_w = self.uic.label.width()
         label_h = self.uic.label.height()
         print("label", label_w, label_h)
-        qt_img = convert_cv_qt(cv_img, label_w, label_h)
+        qt_img = self.convert_cv_qt(cv_img, label_w, label_h)
         self.uic.label.setScaledContents(False)
         self.uic.label.setPixmap(qt_img)
 
-
-def convert_cv_qt(cv_img, label_w, label_h):
-    rgb_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
-    h, w, ch = rgb_img.shape
-    bytes_per_line = ch * w
-    convert_to_Qt_format = QtGui.QImage(rgb_img.data, w, h, bytes_per_line, QtGui.QImage.Format_RGB888)
-    p = convert_to_Qt_format.scaled(label_w, label_h, Qt.KeepAspectRatio)
-    return QPixmap.fromImage(p)
+    def convert_cv_qt(self, cv_img, label_w, label_h):
+        rgb_img = cv2.cvtColor(cv_img, cv2.COLOR_BGR2RGB)
+        h, w, ch = rgb_img.shape
+        bytes_per_line = ch * w
+        convert_to_Qt_format = QtGui.QImage(rgb_img.data, w, h, bytes_per_line, QtGui.QImage.Format_RGB888)
+        p = convert_to_Qt_format.scaled(label_w, label_h, Qt.KeepAspectRatio)
+        return QPixmap.fromImage(p)
 
 
 class live_stream(QThread):
@@ -149,10 +148,10 @@ class live_stream(QThread):
         cv2.destroyAllWindows()
 
     def change_data(self, new_region):
-        pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53*1.27))
-        pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53*1.27))
-        pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53*1.27))
-        pos_4 = (int(new_region[0] * 1.95), int(new_region[1] * 1.53*1.27))
+        pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
+        pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
+        pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
+        pos_4 = (int(new_region[0] * 1.95), int(new_region[1] * 1.53 * 1.27))
 
         self.region_points = [pos_1, pos_2, pos_3, pos_4]
         print("self.region_points", self.region_points)
