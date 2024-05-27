@@ -1,7 +1,6 @@
 # ************************** man hinh loai 2 *************************
 import math
 import sys
-
 import cv2
 import numpy as np
 from PyQt5 import QtCore, QtWidgets, QtGui
@@ -217,6 +216,7 @@ class MainWindow(QMainWindow):
         # print("Danh sách mới:")
         # print(self.percent_list)
         a = []
+        print("self.result", self.result)
         for i in self.result:
             # multiplied_sublist = [[int(element[0] / 1.3), int(element[1] / 1.3)] for element in sublist]
             # result_list.append(multiplied_sublist)
