@@ -346,7 +346,7 @@ class MainWindow(QMainWindow):
             print("list point", self.list_point)
             print("list clas", self.list_clas)
 
-            # count object in list
+            # count_1 object in list
             num_object = len(self.list_point)
             self.lineEdit1.setText(str(num_object))
 
@@ -403,7 +403,7 @@ class MainWindow(QMainWindow):
                 self.qp.drawLine(QPoint(int(i[2][0]), int(i[2][1])), QPoint(int(i[3][0]), int(i[3][1])))
                 self.qp.drawLine(QPoint(int(i[3][0]), int(i[3][1])), QPoint(int(i[0][0]), int(i[0][1])))
 
-        # draw number count objects in list
+        # draw number count_1 objects in list
         for No, i in enumerate(self.list_point):
             if i:
                 font = QFont('Arial', 15)
