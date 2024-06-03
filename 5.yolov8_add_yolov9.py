@@ -2,6 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 # Load a model
+# model = YOLO("yolov10n.pt")
 model = YOLO("yolov9c.pt")
 # model = YOLO("yolov9c-seg.pt")
 
