@@ -3,7 +3,7 @@ import sys
 
 from PyQt5 import QtWidgets
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen
+from PyQt5.QtGui import QPixmap, QPainter, QColor, QPen, QFont
 # pip install pyqt5
 from PyQt5.QtWidgets import QApplication, QMainWindow, QFileDialog
 from gui2 import Ui_MainWindow
@@ -111,9 +111,18 @@ class MainWindow(QMainWindow):
         painter.setPen(pen)
         # draw rectangle
         for i in matrix_2d:
+            # print("i[0]", int(i[0]))
             # print(i[1:])
             p = list(map(int, i[1:]))
             painter.drawRect(p[0], p[1], p[2], p[3])  # Vẽ hình chữ nhật (x, y, width, height)
+
+        # draw class number objects in list
+        for i in matrix_2d:
+            if i:
+                font = QFont('Arial', 15)
+                painter.setFont(font)
+                painter.setPen(QColor(0, 0, 255))
+                painter.drawText(int(i[1]), int(i[2])+18, f'{int(i[0])}')
         painter.end()
 
     def next(self):
