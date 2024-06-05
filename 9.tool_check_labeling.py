@@ -111,10 +111,8 @@ class MainWindow(QMainWindow):
         painter.setPen(pen)
         # draw rectangle
         for i in matrix_2d:
-            # print("i[0]", int(i[0]))
-            # print(i[1:])
-            p = list(map(int, i[1:]))
-            painter.drawRect(p[0], p[1], p[2], p[3])  # Vẽ hình chữ nhật (x, y, width, height)
+            p = list(map(int, i))
+            painter.drawRect(p[1], p[2], p[3], p[4])  # Vẽ hình chữ nhật (x, y, width, height)
 
         # draw class number objects in list
         for i in matrix_2d:
