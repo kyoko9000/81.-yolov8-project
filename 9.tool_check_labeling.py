@@ -23,7 +23,7 @@ class MainWindow(QMainWindow):
 
         self.uic = Ui_MainWindow()
         self.uic.setupUi(self)
-        self.uic.pushButton.clicked.connect(self.load_pic)
+        self.uic.pushButton.clicked.connect(self.load_link)
         self.uic.pushButton_3.clicked.connect(self.next)
         self.uic.pushButton_5.clicked.connect(self.back)
 
@@ -33,7 +33,7 @@ class MainWindow(QMainWindow):
         self.uic.pushButton_2.setText("--")
         self.uic.pushButton_4.setText("--")
 
-    def load_pic(self):
+    def load_link(self):
         # hiển thị cửa sổ chọn của pyqt5 tự vẽ, thay vì cửa sổ chọn mặc định của window
         options = QFileDialog.Options()
         options |= QFileDialog.DontUseNativeDialog
