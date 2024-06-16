@@ -32,6 +32,8 @@ class MainWindow(QMainWindow):
         self.uic.pushButton_5.setText("Back")
         self.uic.pushButton_2.setText("--")
         self.uic.pushButton_4.setText("--")
+        self.uic.label.setScaledContents(False)
+        self.uic.label.setFrameShape(QtWidgets.QFrame.Box)  # tạo viền màu đen
 
     def load_link(self):
         # hiển thị cửa sổ chọn của pyqt5 tự vẽ, thay vì cửa sổ chọn mặc định của window
@@ -51,14 +53,12 @@ class MainWindow(QMainWindow):
         self.file_link = self.link[self.index]
 
         if self.file_link:
-            print(self.file_link)
+            print("open file", self.file_link)
             # loading image
             self.origin_image = QPixmap(self.file_link)
-            self.uic.label.setScaledContents(False)
             w = self.uic.label.width()
             h = self.uic.label.height()
             self.image = self.origin_image.scaled(w, h, Qt.KeepAspectRatio)
-            self.uic.label.setFrameShape(QtWidgets.QFrame.Box)  # tạo viền màu đen
             self.uic.label.setPixmap(self.image)
 
             # vẽ bounding box
@@ -67,33 +67,39 @@ class MainWindow(QMainWindow):
     def bounding_box(self):
         # lấy ra tên file trong link
         name = self.file_link.split("/")[-1][:-4]
+
         # loại bỏ tên file và folder chứa file trong link
         root_link_split = self.file_link.split("/")[:-3]
+
         # link folder gốc
         root_link = "/".join(root_link_split)
+
         # đường link đến file txt
         link_file_txt = f"{root_link}/labels/train2017/{name}.txt"
-        print("check", link_file_txt)
+        print("labels link txt", link_file_txt)
+
         try:
             # Đọc từ tệp văn bản
             with open(link_file_txt, 'r') as file:
                 lines = file.readlines()
-            # Loại bỏ ký tự xuống dòng (newline) từ mỗi dòng
+                # print(lines)
+
+            # Loại bỏ ký tự xuống dòng từ mỗi dòng
             lines = [line.strip() for line in lines]
+            # print(lines)
 
-            # Tạo danh sách 2D từ dữ liệu đã đọc
+            # Tạo danh sách 2D từ dữ liệu đã đọc (xc, yc, w, h) %
             matrix_2d = [list(map(float, line.split())) for line in lines]
-
-            # In danh sách 2D
-            # print("matrix_2d", matrix_2d)
+            # print(matrix_2d)
 
             # chuyển tọa độ dạng % sang tọa độ dạng số
             point_list = self.change_percent_to_point(matrix_2d)
 
             # vẽ hình chữ nhật lên hình
-            self.draw_rectangle(point_list)
+            self.draw_rectangle(point_list)  # (x0, y0, w, h) point
         except:
             pass
+
         # vẽ lại pixmap
         self.uic.label.setPixmap(self.image)
 
@@ -103,19 +109,19 @@ class MainWindow(QMainWindow):
         point_list = [[i[0], (i[1] - i[3] / 2) * w, (i[2] - i[4] / 2) * h, i[3] * w, i[4] * h] for i in matrix_2d]
         return point_list
 
-    def draw_rectangle(self, matrix_2d):
+    def draw_rectangle(self, point_list):
         # Vẽ hình chữ nhật lên label
         painter = QPainter(self.image)
         pen = QPen(QColor(255, 0, 0))  # Màu đỏ
         pen.setWidth(2)
         painter.setPen(pen)
         # draw rectangle
-        for i in matrix_2d:
+        for i in point_list:
             p = list(map(int, i))
-            painter.drawRect(p[1], p[2], p[3], p[4])  # Vẽ hình chữ nhật (x, y, width, height)
+            painter.drawRect(p[1], p[2], p[3], p[4])  # Vẽ hình chữ nhật (x0, y0, width, height)
 
         # draw class number objects in list
-        for i in matrix_2d:
+        for i in point_list:
             if i:
                 font = QFont('Arial', 15)
                 painter.setFont(font)
