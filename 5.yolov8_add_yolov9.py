@@ -22,5 +22,9 @@ for result in results:
             print("conf", box.conf)
             print("xyxy", box.xyxy)
 
+    # show original image
+    # cv2.imshow("predict img", orig_img)
+
+    # show image after predict
     cv2.imshow("predict img", predict_img)
     cv2.waitKey(1)
