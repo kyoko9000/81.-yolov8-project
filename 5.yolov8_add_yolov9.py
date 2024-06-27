@@ -7,7 +7,6 @@ from ultralytics import YOLO
 # model = YOLO("yolov9c-seg.pt")
 model = YOLO("yolov10n.pt")
 
-
 # Use the model
 results = model("video1.mp4", stream=True)  # predict on an image
 for result in results:
