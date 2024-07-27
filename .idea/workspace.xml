@@ -5,10 +5,305 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10.fix_location.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000064.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000071.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000072.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000073.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000074.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000077.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000078.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000081.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000086.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000089.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000092.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000094.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000136.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000143.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000149.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000151.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000154.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000164.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000165.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000194.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000196.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000201.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000208.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000241.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000247.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000250.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000257.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000260.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000283.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000294.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000307.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000308.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000309.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000312.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000315.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000321.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000322.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000326.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000328.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000332.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000338.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000349.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000357.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000359.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000368.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000370.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000382.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000384.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000387.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000389.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000394.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000395.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000397.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000400.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000404.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000415.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000419.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000428.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000431.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000436.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000438.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000443.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000446.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000450.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000459.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000471.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000472.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000474.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000486.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000488.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000490.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000491.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000502.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000508.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000510.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000514.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000520.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000531.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000532.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000536.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000540.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000542.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000544.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000560.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000562.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000564.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000569.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000572.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000575.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000581.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000584.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000589.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000590.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000595.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000597.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000599.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000605.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000612.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000620.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000623.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000625.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000626.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000634.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000636.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000641.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000643.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000650.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000025.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000030.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000034.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000036.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000042.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000049.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000061.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000064.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000071.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000072.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000073.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000074.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000077.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000078.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000081.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000086.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000089.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000092.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000094.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000109.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000110.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000113.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000127.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000133.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000136.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000138.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000142.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000143.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000144.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000149.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000151.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000154.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000164.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000165.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000192.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000194.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000196.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000201.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000208.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000241.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000247.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000257.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000260.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000263.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000283.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000294.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000307.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000308.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000309.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000312.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000315.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000321.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000322.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000326.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000328.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000332.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000338.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000349.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000357.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000359.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000360.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000368.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000370.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000382.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000384.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000387.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000389.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000394.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000395.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000397.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000400.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000404.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000415.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000419.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000428.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000431.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000436.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000438.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000443.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000446.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000450.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000459.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000471.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000472.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000474.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000486.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000488.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000490.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000491.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000502.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000510.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000514.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000520.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000529.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000531.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000532.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000536.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000540.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000542.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000544.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000560.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000562.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000564.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000569.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000572.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000575.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000581.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000584.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000589.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000590.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000595.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000597.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000599.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000605.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000612.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000620.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000623.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000625.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000626.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000629.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000634.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000636.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000641.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000643.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000650.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000656.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000659.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000009.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000025.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000030.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000034.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000036.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000042.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000049.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000061.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000009.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000025.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000030.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000034.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000036.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000042.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000049.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000061.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/F1_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/PR_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/P_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/R_curve.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/args.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/confusion_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/confusion_matrix_normalized.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/labels_correlogram.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/results.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/results.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/train_batch0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/val_batch0_labels.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/val_batch0_pred.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/weights/best.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/runs/detect/train/weights/last.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov10n.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolov9t.pt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/81.-yolov8-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/81.-yolov8-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3.OBB_label_tool_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/3.OBB_label_tool_v1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/labels/plane.txt" beforeDir="false" afterPath="$PROJECT_DIR$/labels/plane.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OBB/predict/plane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yolov9c.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +332,9 @@
     &quot;accountId&quot;: &quot;43e0e1c5-0e77-40cd-a819-d94da92130d5&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -52,17 +350,26 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.10.fix_location.executor": "Run",
     "Python.3.OBB_label_tool_v1.executor": "Run",
+    "Python.5.yolov8_add_yolov9.executor": "Run",
+    "Python.9.tool_check_labeling.executor": "Run",
     "Python.f.executor": "Run",
+    "Python.tt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/2.Python_projects/75.-yolov8-pyqt5",
+    "last_opened_file_path": "D:/2.Python_projects/81.-yolov8-project",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "EditorConfig"
+    ]
   }
 }]]></component>
-  <component name="RunManager" selected="Python.3.OBB_label_tool_v1">
-    <configuration name="3.OBB_label_tool_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10.fix_location">
+    <configuration name="10.fix_location" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +382,73 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.OBB_label_tool_v1.py" />
+      <option name="SCRIPT_NAME" value="D:\2.Python_projects\81.-yolov8-project\10.fix_location.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="3.OBB_label_tool" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="81.-yolov8-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\2.Python_projects\81.-yolov8-project\3.OBB_label_tool.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5.yolov8_add_yolov9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="81.-yolov8-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.yolov8_add_yolov9.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9.tool_check_labeling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="81.-yolov8-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.tool_check_labeling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,15 +481,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.3.OBB_label_tool_v1" />
+        <item itemvalue="Python.10.fix_location" />
+        <item itemvalue="Python.5.yolov8_add_yolov9" />
+        <item itemvalue="Python.9.tool_check_labeling" />
         <item itemvalue="Python.f" />
+        <item itemvalue="Python.3.OBB_label_tool" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-babbdf50b680-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.15989.155" />
+        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
       </set>
     </attachedChunks>
   </component>
@@ -137,8 +513,147 @@
       <option name="project" value="LOCAL" />
       <updated>1716685638314</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <option name="closed" value="true" />
+      <created>1716821805760</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716821805760</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update">
+      <option name="closed" value="true" />
+      <created>1717071953170</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1717071953170</updated>
+    </task>
+    <task id="LOCAL-00004" summary="update">
+      <option name="closed" value="true" />
+      <created>1717073716252</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717073716252</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1717077531282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717077531282</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1717425680939</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1717425680939</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1717425725476</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717425725476</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1717591873528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1717591873528</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1717592479488</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592479488</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1717592696857</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1717592696857</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <option name="closed" value="true" />
+      <created>1718521213650</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718521213650</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update">
+      <option name="closed" value="true" />
+      <created>1719105341620</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719105341620</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update">
+      <option name="closed" value="true" />
+      <created>1719105488504</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1719105488504</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update">
+      <option name="closed" value="true" />
+      <created>1719493547202</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1719493547202</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update">
+      <option name="closed" value="true" />
+      <created>1719493579511</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719493579511</updated>
+    </task>
+    <task id="LOCAL-00016" summary="update">
+      <option name="closed" value="true" />
+      <created>1720611692211</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1720611692211</updated>
+    </task>
+    <task id="LOCAL-00017" summary="update">
+      <option name="closed" value="true" />
+      <created>1721738376469</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1721738376469</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
