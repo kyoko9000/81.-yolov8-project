@@ -2,9 +2,9 @@ import cv2
 from ultralytics import YOLO
 
 # Load a model
-# model = YOLO("yolov8n.pt")
+model = YOLO("yolov8n.pt")
 # model = YOLO("yolov9t.pt")
-model = YOLO("yolov9c-seg.pt")
+# model = YOLO("yolov9c-seg.pt")
 # model = YOLO("yolov10n.pt")
 
 # Use the model
