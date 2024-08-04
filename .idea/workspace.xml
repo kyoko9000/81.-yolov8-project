@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/10.fix_location.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000009.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000025.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/coco128/images/train2017/000000000030.jpg" afterDir="false" />
@@ -262,47 +261,10 @@
       <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000650.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000656.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/coco128/labels/train2017/000000000659.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000036.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000061.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000009.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000025.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000030.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000034.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000036.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000042.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000049.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000061.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/F1_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/PR_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/P_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/R_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/args.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/confusion_matrix_normalized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/labels_correlogram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/results.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/train_batch0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/val_batch0_labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/val_batch0_pred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/weights/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/weights/last.pt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yolov10n.pt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/yolov9t.pt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/81.-yolov8-project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/81.-yolov8-project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OBB/predict/plane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10.fix_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.fix_location.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yolov9c.pt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -329,7 +291,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kyoko9000/81.-yolov8-project.git&quot;,
-    &quot;accountId&quot;: &quot;43e0e1c5-0e77-40cd-a819-d94da92130d5&quot;
+    &quot;accountId&quot;: &quot;9c2e2689-cb28-4ee1-8d06-e01ea1333830&quot;
   }
 }</component>
   <component name="ProblemsViewState">
@@ -347,27 +309,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.10.fix_location.executor": "Run",
-    "Python.3.OBB_label_tool_v1.executor": "Run",
-    "Python.5.yolov8_add_yolov9.executor": "Run",
-    "Python.9.tool_check_labeling.executor": "Run",
-    "Python.f.executor": "Run",
-    "Python.tt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/2.Python_projects/81.-yolov8-project",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.10.fix_location.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.OBB_label_tool_v1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.yolov8_add_yolov9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9.tool_check_labeling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.f.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2.Python_projects/81.-yolov8-project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "EditorConfig"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;EditorConfig&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.10.fix_location">
     <configuration name="10.fix_location" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
@@ -641,7 +603,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721738376469</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update">
+      <option name="closed" value="true" />
+      <created>1722124083666</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1722124083666</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
