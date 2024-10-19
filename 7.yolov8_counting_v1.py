@@ -121,7 +121,6 @@ class live_stream(QThread):
                                 model="yolo11n.pt")
 
         while cap.isOpened():
-
             success, im0 = cap.read()
             if not success:
                 print("Video frame is empty or video processing has been successfully completed.")
