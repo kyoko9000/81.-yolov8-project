@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/output_video.avi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yolo11n.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/7.yolov8_counting_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.yolov8_counting_v1.py" afterDir="false" />
     </list>
@@ -53,36 +50,36 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python.10.fix_location (1).executor": "Run",
-    "Python.10.fix_location.executor": "Run",
-    "Python.11.train_yolo.executor": "Run",
-    "Python.12.hi.executor": "Run",
-    "Python.12.yolov11_base (1).executor": "Run",
-    "Python.12.yolov11_base.executor": "Run",
-    "Python.12.yolov11_detect.executor": "Run",
-    "Python.3.OBB_label_tool_v1.executor": "Run",
-    "Python.5.yolov8_add_yolov9.executor": "Run",
-    "Python.7.yolov8_counting_v1.executor": "Run",
-    "Python.9.tool_check_labeling.executor": "Run",
-    "Python.f.executor": "Run",
-    "Python.tesa.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tt.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/2.Python_projects/79.-pyqt5-project-1",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python.10.fix_location (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.10.fix_location.executor&quot;: &quot;Run&quot;,
+    &quot;Python.11.train_yolo.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.hi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.yolov11_base (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.yolov11_base.executor&quot;: &quot;Run&quot;,
+    &quot;Python.12.yolov11_detect.executor&quot;: &quot;Run&quot;,
+    &quot;Python.3.OBB_label_tool_v1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.5.yolov8_add_yolov9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.7.yolov8_counting_v1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.9.tool_check_labeling.executor&quot;: &quot;Run&quot;,
+    &quot;Python.f.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tesa.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tt.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2.Python_projects/79.-pyqt5-project-1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "EditorConfig"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;EditorConfig&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\2.Python_projects\81.-yolov8-project" />
@@ -440,7 +437,31 @@
       <option name="project" value="LOCAL" />
       <updated>1728399509015</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update">
+      <option name="closed" value="true" />
+      <created>1729376908072</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1729376908072</updated>
+    </task>
+    <task id="LOCAL-00028" summary="update">
+      <option name="closed" value="true" />
+      <created>1729376918988</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1729376918988</updated>
+    </task>
+    <task id="LOCAL-00029" summary="update">
+      <option name="closed" value="true" />
+      <created>1729377031173</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1729377031173</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
