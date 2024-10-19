@@ -127,7 +127,6 @@ class live_stream(QThread):
             if not success:
                 print("Video frame is empty or video processing has been successfully completed.")
                 break
-            # tracks = counter.count(im0, persist=True, show=False, conf=0.5)
             im0 = counter.count(im0)
 
             # draw rectangle
