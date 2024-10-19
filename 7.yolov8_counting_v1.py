@@ -7,7 +7,7 @@ from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtGui import QPixmap, QPainter, QPen
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
 from ultralytics import YOLO
-from ultralytics.solutions import object_counter
+from ultralytics.solutions import ObjectCounter
 
 from gui1 import Ui_MainWindow
 
@@ -108,7 +108,7 @@ class live_stream(QThread):
         super(live_stream, self).__init__()
 
     def run(self):
-        model = YOLO("yolov8n.pt")
+        model = "yolo11n.pt"
         cap = cv2.VideoCapture("video1.mp4")
         assert cap.isOpened(), "Error reading video file"
         # w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
@@ -118,20 +118,17 @@ class live_stream(QThread):
         self.region_points = [(300, 400), (1280, 404), (1280, 360), (300, 360)]
 
         # Init Object Counter
-        counter = object_counter.ObjectCounter()
+        counter = ObjectCounter(show=True,
+                                region=self.region_points,
+                                model=model)
 
         while cap.isOpened():
-            counter.set_args(view_img=False,
-                             reg_pts=self.region_points,
-                             classes_names=model.names,
-                             draw_tracks=True,
-                             line_thickness=4)
             success, im0 = cap.read()
             if not success:
                 print("Video frame is empty or video processing has been successfully completed.")
                 break
-            tracks = model.track(im0, persist=True, show=False, conf=0.5)
-            im0 = counter.start_counting(im0, tracks)
+            # tracks = counter.count(im0, persist=True, show=False, conf=0.5)
+            im0 = counter.count(im0)
 
             # draw rectangle
             color = (255, 0, 0)
