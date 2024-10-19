@@ -5,45 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/11.train_yolo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cocosample.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000009.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000025.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000030.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/train/000000000034.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000036.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000042.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000049.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/images/val/000000000061.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000009.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000025.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000030.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/train/000000000034.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000036.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000042.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000049.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/coco8/labels/val/000000000061.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/F1_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/PR_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/P_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/R_curve.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/args.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/confusion_matrix.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/confusion_matrix_normalized.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/labels_correlogram.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/results.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/results.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/train_batch0.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/val_batch0_labels.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/val_batch0_pred.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/weights/best.pt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/runs/detect/train/weights/last.pt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output_video.avi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yolo11n.pt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10.fix_location.py" beforeDir="false" afterPath="$PROJECT_DIR$/10.fix_location.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yolov9t.pt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7.yolov8_counting_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.yolov8_counting_v1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,15 +59,22 @@
     "Python.10.fix_location (1).executor": "Run",
     "Python.10.fix_location.executor": "Run",
     "Python.11.train_yolo.executor": "Run",
+    "Python.12.hi.executor": "Run",
+    "Python.12.yolov11_base (1).executor": "Run",
+    "Python.12.yolov11_base.executor": "Run",
+    "Python.12.yolov11_detect.executor": "Run",
     "Python.3.OBB_label_tool_v1.executor": "Run",
     "Python.5.yolov8_add_yolov9.executor": "Run",
+    "Python.7.yolov8_counting_v1.executor": "Run",
     "Python.9.tool_check_labeling.executor": "Run",
     "Python.f.executor": "Run",
+    "Python.tesa.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.tt.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/2.Python_projects/81.-yolov8-project",
+    "last_opened_file_path": "D:/2.Python_projects/79.-pyqt5-project-1",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
@@ -115,8 +88,8 @@
       <recent name="D:\2.Python_projects\81.-yolov8-project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.11.train_yolo">
-    <configuration name="10.fix_location" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.7.yolov8_counting_v1">
+    <configuration name="12.hi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +102,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10.fix_location.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.hi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -138,7 +111,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="11.train_yolo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="12.yolov11_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -151,7 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/11.train_yolo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.yolov11_base.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,7 +133,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="5.yolov8_add_yolov9" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="7.yolov8_counting_v1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -173,7 +146,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5.yolov8_add_yolov9.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7.yolov8_counting_v1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="9.tool_check_labeling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="tesa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,7 +168,29 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/9.tool_check_labeling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tesa.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="81.-yolov8-project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -205,17 +200,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.5.yolov8_add_yolov9" />
-      <item itemvalue="Python.9.tool_check_labeling" />
-      <item itemvalue="Python.10.fix_location" />
-      <item itemvalue="Python.11.train_yolo" />
+      <item itemvalue="Python.7.yolov8_counting_v1" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.tesa" />
+      <item itemvalue="Python.12.yolov11_base" />
+      <item itemvalue="Python.12.hi" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.11.train_yolo" />
-        <item itemvalue="Python.5.yolov8_add_yolov9" />
-        <item itemvalue="Python.10.fix_location" />
-        <item itemvalue="Python.9.tool_check_labeling" />
+        <item itemvalue="Python.7.yolov8_counting_v1" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tesa" />
+        <item itemvalue="Python.12.yolov11_base" />
+        <item itemvalue="Python.12.hi" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +416,31 @@
       <option name="project" value="LOCAL" />
       <updated>1722954589746</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="update">
+      <option name="closed" value="true" />
+      <created>1724564411933</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1724564411933</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update">
+      <option name="closed" value="true" />
+      <created>1724564443717</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1724564443717</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update">
+      <option name="closed" value="true" />
+      <created>1728399509015</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728399509015</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
