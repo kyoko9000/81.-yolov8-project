@@ -108,7 +108,6 @@ class live_stream(QThread):
         super(live_stream, self).__init__()
 
     def run(self):
-        model = "yolo11n.pt"
         cap = cv2.VideoCapture("video1.mp4")
         assert cap.isOpened(), "Error reading video file"
         # w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
@@ -116,17 +115,18 @@ class live_stream(QThread):
 
         # Define region points
         self.region_points = [(300, 400), (1280, 404), (1280, 360), (300, 360)]
-
         # Init Object Counter
         counter = ObjectCounter(show=False,
                                 region=self.region_points,
-                                model=model)
+                                model="yolo11n.pt")
 
         while cap.isOpened():
+
             success, im0 = cap.read()
             if not success:
                 print("Video frame is empty or video processing has been successfully completed.")
                 break
+                # Init Object Counter
             im1 = counter.count(im0)
 
             # draw rectangle
