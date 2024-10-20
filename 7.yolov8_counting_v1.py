@@ -58,7 +58,6 @@ class MainWindow(QMainWindow):
     def mouseReleaseEvent(self, event):
         if self.take:
             new_region = [self.lb.x0, self.lb.y0, self.lb.x1, self.lb.y1]
-            # self.thread[1].change_data(new_region)
             self.thread[1].stop_app()
             self.change_data(new_region)
             # start counting

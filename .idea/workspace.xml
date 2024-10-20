@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/output_video.avi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7.yolov8_counting_v1.py" beforeDir="false" afterPath="$PROJECT_DIR$/7.yolov8_counting_v1.py" afterDir="false" />
-    </list>
+    <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -486,7 +482,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729379247242</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="update">
+      <option name="closed" value="true" />
+      <created>1729382651994</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1729382651994</updated>
+    </task>
+    <task id="LOCAL-00034" summary="update">
+      <option name="closed" value="true" />
+      <created>1729382699190</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1729382699190</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
