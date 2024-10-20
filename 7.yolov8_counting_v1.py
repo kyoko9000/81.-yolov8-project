@@ -42,6 +42,7 @@ class MyLabel(QLabel):
 class MainWindow(QMainWindow):
     def __init__(self):  # Show GUI
         super().__init__()
+        self.new_region = [(300, 400), (1280, 404), (1280, 360), (300, 360)]
         self.take = False
         self.uic1 = None
         self.lb = None
@@ -57,7 +58,20 @@ class MainWindow(QMainWindow):
     def mouseReleaseEvent(self, event):
         if self.take:
             new_region = [self.lb.x0, self.lb.y0, self.lb.x1, self.lb.y1]
-            self.thread[1].change_data(new_region)
+            # self.thread[1].change_data(new_region)
+            self.thread[1].stop_app()
+            self.change_data(new_region)
+            # start counting
+            self.start_capture_video()
+
+    def change_data(self, new_region):
+        pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
+        pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
+        pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
+        pos_4 = (int(new_region[0] * 1.95), int(new_region[1] * 1.53 * 1.27))
+
+        self.new_region = [pos_1, pos_2, pos_3, pos_4]
+        print("self.region_points", self.new_region)
 
     def draw_rect(self):
         # show rectangle
@@ -71,7 +85,7 @@ class MainWindow(QMainWindow):
         self.start_capture_video()
 
     def start_capture_video(self):
-        self.thread[1] = live_stream(index=1)
+        self.thread[1] = live_stream(index=1, region=self.new_region)
         self.thread[1].start()
         self.thread[1].signal.connect(self.show_webcam)
 
@@ -98,10 +112,10 @@ class MainWindow(QMainWindow):
 class live_stream(QThread):
     signal = pyqtSignal(object)
 
-    def __init__(self, index):
+    def __init__(self, index, region):
         self.end_point = None
         self.start_point = None
-        self.region_points = None
+        self.region_points = region
         self.stop = False
         self.index = index
         print("Starting threading: ", self.index)
@@ -113,12 +127,10 @@ class live_stream(QThread):
         # w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
         # print("w, h", w, h)
 
-        # Define region points
-        self.region_points = [(300, 400), (1280, 404), (1280, 360), (300, 360)]
         # Init Object Counter
         counter = ObjectCounter(show=False,
                                 region=self.region_points,
-                                model="yolo11n.pt")
+                                model="yolov8n.pt")
 
         while cap.isOpened():
             success, im0 = cap.read()
@@ -126,14 +138,14 @@ class live_stream(QThread):
                 print("Video frame is empty or video processing has been successfully completed.")
                 break
                 # Init Object Counter
-            im1 = counter.count(im0)
+            im0 = counter.count(im0)
 
             # draw rectangle
             color = (255, 0, 0)
             thickness = 2
             start_point = self.region_points[3]
             end_point = self.region_points[1]
-            image = cv2.rectangle(im1, start_point, end_point, color, thickness)
+            image = cv2.rectangle(im0, start_point, end_point, color, thickness)
 
             self.signal.emit(image)
             if self.stop:
@@ -142,14 +154,14 @@ class live_stream(QThread):
         cap.release()
         cv2.destroyAllWindows()
 
-    def change_data(self, new_region):
-        pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
-        pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
-        pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
-        pos_4 = (int(new_region[0] * 1.95), int(new_region[1] * 1.53 * 1.27))
-
-        self.region_points = [pos_1, pos_2, pos_3, pos_4]
-        print("self.region_points", self.region_points)
+    # def change_data(self, new_region):
+    #     pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
+    #     pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
+    #     pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
+    #     pos_4 = (int(new_region[0] * 1.95), int(new_region[1] * 1.53 * 1.27))
+    #
+    #     self.region_points = [pos_1, pos_2, pos_3, pos_4]
+    #     print("self.region_points", self.region_points)
 
     def stop_app(self):
         print("stop")
