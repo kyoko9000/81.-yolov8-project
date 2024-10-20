@@ -1,12 +1,10 @@
 import sys
 import cv2
-import numpy as np
 from PyQt5.QtCore import Qt, QRect
 from PyQt5 import QtGui, QtCore
 from PyQt5.QtCore import QThread, pyqtSignal
 from PyQt5.QtGui import QPixmap, QPainter, QPen
 from PyQt5.QtWidgets import QApplication, QMainWindow, QLabel
-from ultralytics import YOLO
 from ultralytics.solutions import ObjectCounter
 
 from gui1 import Ui_MainWindow
