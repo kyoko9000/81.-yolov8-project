@@ -124,8 +124,6 @@ class live_stream(QThread):
     def run(self):
         cap = cv2.VideoCapture("video1.mp4")
         assert cap.isOpened(), "Error reading video file"
-        # w, h, fps = (int(cap.get(x)) for x in (cv2.CAP_PROP_FRAME_WIDTH, cv2.CAP_PROP_FRAME_HEIGHT, cv2.CAP_PROP_FPS))
-        # print("w, h", w, h)
 
         # Init Object Counter
         counter = ObjectCounter(show=False,
@@ -153,15 +151,6 @@ class live_stream(QThread):
 
         cap.release()
         cv2.destroyAllWindows()
-
-    # def change_data(self, new_region):
-    #     pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
-    #     pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
-    #     pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
-    #     pos_4 = (int(new_region[0] * 1.95), int(new_region[1] * 1.53 * 1.27))
-    #
-    #     self.region_points = [pos_1, pos_2, pos_3, pos_4]
-    #     print("self.region_points", self.region_points)
 
     def stop_app(self):
         print("stop")
