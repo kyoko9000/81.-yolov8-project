@@ -62,7 +62,7 @@ class MainWindow(QMainWindow):
             self.start_capture_video()
 
     def change_data(self, new_region):
-        # image size w=1364, h=768
+        # frame size w=1364, h=768
         # label size w=700, h=500
         # 1.95 = 1364/700, 1.53 = 768/500
         # offset=1.27(số này thêm vào x hoặc y tùy vào video của chúng ta)
