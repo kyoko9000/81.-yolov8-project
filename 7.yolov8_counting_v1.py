@@ -62,6 +62,10 @@ class MainWindow(QMainWindow):
             self.start_capture_video()
 
     def change_data(self, new_region):
+        # image size w=1364, h=768
+        # label size w=700, h=500
+        # 1.95 = 1364/700, 1.53 = 768/500
+        # offset=1.27(số này thêm vào x hoặc y tùy vào video của chúng ta)
         pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
         pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
         pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
@@ -141,6 +145,7 @@ class live_stream(QThread):
             start_point = self.region_points[3]
             end_point = self.region_points[1]
             image = cv2.rectangle(im0, start_point, end_point, color, thickness)
+            print(image.shape)
 
             self.signal.emit(image)
             if self.stop:
