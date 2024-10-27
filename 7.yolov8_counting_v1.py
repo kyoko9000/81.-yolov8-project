@@ -66,6 +66,7 @@ class MainWindow(QMainWindow):
         # label size w=700, h=500
         # 1.95 = 1364/700, 1.53 = 768/500
         # offset=1.27(số này thêm vào x hoặc y tùy vào video của chúng ta)
+        # 500/(768/1.95) = 1.27
         pos_1 = (int(new_region[0] * 1.95), int(new_region[3] * 1.53 * 1.27))
         pos_2 = (int(new_region[2] * 1.95), int(new_region[3] * 1.53 * 1.27))
         pos_3 = (int(new_region[2] * 1.95), int(new_region[1] * 1.53 * 1.27))
