@@ -56,7 +56,7 @@ class live_stream(QThread):
         super(live_stream, self).__init__()
 
     def run(self):
-        # model = YOLO("yolov8n.pt")  # load a pretrained model (recommended for training)
+        # model = YOLO("yolov5s.pt")  # load a pretrained model (recommended for training)
         # results = model('video1.mp4', stream=True)  # List of Results objects
         # for result in results:
         #     # self.signal.emit(result.orig_img)
