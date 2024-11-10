@@ -67,7 +67,7 @@ class live_stream(QThread):
         #             print("class", box.cls)
 
         # Load the YOLOv8 model
-        model = YOLO('yolov8n.pt')
+        model = YOLO('yolov5su.pt')
 
         # Open the video file
         cap = cv2.VideoCapture("video1.mp4")

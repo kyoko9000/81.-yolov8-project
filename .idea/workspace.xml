@@ -82,8 +82,8 @@
       <recent name="D:\2.Python_projects\81.-yolov8-project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.7.yolov8_counting_v1">
-    <configuration name="12.yolov11_base" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.4.yolov8_gui_reupdate">
+    <configuration name="4.yolov8_gui_reupdate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="81.-yolov8-project" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/12.yolov11_base.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/4.yolov8_gui_reupdate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,7 +194,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.12.yolov11_base" />
+      <item itemvalue="Python.4.yolov8_gui_reupdate" />
       <item itemvalue="Python.7.yolov8_counting_v1" />
       <item itemvalue="Python.tesa" />
       <item itemvalue="Python.test" />
@@ -202,11 +202,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.4.yolov8_gui_reupdate" />
         <item itemvalue="Python.7.yolov8_counting_v1" />
         <item itemvalue="Python.tt" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.tesa" />
-        <item itemvalue="Python.12.yolov11_base" />
       </list>
     </recent_temporary>
   </component>
