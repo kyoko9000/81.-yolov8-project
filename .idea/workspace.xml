@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update" />
+    <list default="true" id="6456437c-3a6b-4c63-bb07-3adf0226053e" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +60,7 @@
     &quot;Python.12.yolov11_base.executor&quot;: &quot;Run&quot;,
     &quot;Python.12.yolov11_detect.executor&quot;: &quot;Run&quot;,
     &quot;Python.3.OBB_label_tool_v1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.4.yolov8_gui_reupdate.executor&quot;: &quot;Run&quot;,
     &quot;Python.5.yolov8_add_yolov9.executor&quot;: &quot;Run&quot;,
     &quot;Python.7.yolov8_counting_v1.executor&quot;: &quot;Run&quot;,
     &quot;Python.9.tool_check_labeling.executor&quot;: &quot;Run&quot;,
@@ -68,7 +71,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/2.Python_projects/75.-yolov8-pyqt5&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/2.Python_projects/81.-yolov8-project&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -213,7 +216,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-975db3bf15a3-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.18034.82" />
+        <option value="bundled-python-sdk-337b0a7a993a-31b6be0877a2-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.19416.19" />
       </set>
     </attachedChunks>
   </component>
@@ -546,7 +549,31 @@
       <option name="project" value="LOCAL" />
       <updated>1730598776221</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="update">
+      <option name="closed" value="true" />
+      <created>1731197806980</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1731197806980</updated>
+    </task>
+    <task id="LOCAL-00042" summary="update">
+      <option name="closed" value="true" />
+      <created>1731197976711</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1731197976711</updated>
+    </task>
+    <task id="LOCAL-00043" summary="update">
+      <option name="closed" value="true" />
+      <created>1731198423461</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1731198423461</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
